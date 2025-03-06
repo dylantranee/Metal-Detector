@@ -8,24 +8,6 @@ This project implements a **metal detector** using a **555 Timer IC** configured
 
 ---
 
-## **📂 Folder Structure**
-```
-Metal-Detector-Embedded/
-│── Firmware/                 # Embedded C code for the microcontroller
-│   ├── main.c                # Main program
-│   ├── timer_config.c        # Timer setup (for STM32)
-│   ├── timer_config.h
-│── Hardware/                 # Circuit schematics and PCB layout
-│   ├── Schematic.pdf
-│   ├── PCB_Design/
-│── Simulation/               # LTspice simulations and frequency analysis
-│── Documentation/            # Project report and research notes
-│── README.md                 # Project documentation
-│── LICENSE                   # Open-source license (MIT)
-```
-
----
-
 ## **🔧 Hardware Components**
 | Component | Quantity | Purpose |
 |-----------|---------|----------|
@@ -77,18 +59,5 @@ Metal-Detector-Embedded/
 
 ### **3️⃣ Firmware Upload (STM32)**
 1. Open `main.c` in **STM32CubeIDE**  
-2. Compile & flash firmware via **ST-Link**  
-
----
-
-## **📊 Experimental Results**
-✅ Successfully detected **metal objects** with frequency shift  
-✅ **Higher detection accuracy** for conductive metals (copper, aluminum)  
-✅ Challenges: **Noise interference** and **component tolerances**  
-
----
-
-## **📜 Future Improvements**
-🚀 Add **OLED display** for real-time frequency monitoring  
-🚀 Improve **signal processing** to reduce noise  
-🚀 Implement **low-power mode** for battery efficiency  
+2. Compile & flash firmware via **ST-Link**
+   
