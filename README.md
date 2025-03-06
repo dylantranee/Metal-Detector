@@ -1,8 +1,6 @@
 # **Metal Detector – Embedded Systems Project**  
 🚀 *An embedded system-based metal detector using a 555 Timer IC, microcontroller, and buzzer for real-time metal detection.*
 
-![Metal Detector Circuit](./Hardware/PCB_Design/PCB_Layout.png)
-
 ## **📌 Project Overview**  
 This project implements a **metal detector** using a **555 Timer IC** configured as an **astable multivibrator**. When a metal object is placed near the coil, the **inductance changes**, causing a frequency shift, which is detected by a **microcontroller**. The system provides **audible and visual feedback** through a **buzzer and LED**.
 
